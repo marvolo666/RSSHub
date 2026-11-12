@@ -10027,7 +10027,7 @@
   "/bilibili/user/video-all/:uid/:embed?": [
     "CcccFz"
   ],
-  "/bilibili/user/video/:uid/:embed?": [
+  "/bilibili/user/video/:uid/:embed?/:charging?": [
     "DIYgod",
     "Konano",
     "pseudoyu"

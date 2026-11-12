@@ -138517,8 +138517,8 @@
         "location": "video-all.ts",
         "module": "() => import('@/routes/bilibili/video-all.ts')"
       },
-      "/user/video/:uid/:embed?": {
-        "path": "/user/video/:uid/:embed?",
+      "/user/video/:uid/:embed?/:charging?": {
+        "path": "/user/video/:uid/:embed?/:charging?",
         "categories": [
           "social-media"
         ],
@@ -138526,7 +138526,8 @@
         "example": "/bilibili/user/video/2267573",
         "parameters": {
           "uid": "用户 id, 可在 UP 主主页中找到",
-          "embed": "默认为开启内嵌视频, 任意值为关闭"
+          "embed": "默认为开启内嵌视频, 任意值为关闭",
+          "charging": "充电专属筛选：默认为0 为不筛选，1 为非充电专属视频，2 为仅充电专属视频"
         },
         "features": {
           "requireConfig": false,

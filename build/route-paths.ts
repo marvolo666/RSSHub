@@ -396,7 +396,7 @@ export type RoutePath =
   | `/bilibili/user/followings/:uid/:loginUid`
   | `/bilibili/user/like/:uid/:embed?`
   | `/bilibili/user/video-all/:uid/:embed?`
-  | `/bilibili/user/video/:uid/:embed?`
+  | `/bilibili/user/video/:uid/:embed?/:charging?`
   | `/bilibili/video/danmaku/:bvid/:pid?`
   | `/bilibili/video/page/:bvid/:embed?/:sort?`
   | `/bilibili/video/reply/:bvid`

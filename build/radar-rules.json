@@ -520,19 +520,6 @@
       }
     ]
   },
-  "cohere.com": {
-    "_name": "Cohere",
-    ".": [
-      {
-        "title": "Blog",
-        "docs": "https://docs.rsshub.app/routes/cohere",
-        "source": [
-          "/"
-        ],
-        "target": "/cohere/blog"
-      }
-    ]
-  },
   "cowlevel.net": {
     "_name": "奶牛关",
     ".": [
@@ -17556,6 +17543,20 @@
           "/blog"
         ],
         "target": "/cognition/blog"
+      }
+    ]
+  },
+  "cohere.com": {
+    "_name": "Cohere",
+    ".": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/cohere",
+        "source": [
+          "/blog",
+          "/blog/:slug"
+        ],
+        "target": "/cohere/blog"
       }
     ]
   },
@@ -52713,6 +52714,46 @@
           "/:country/en/c/:gender"
         ],
         "target": "/arcteryx/outlet/:country/:gender"
+      }
+    ]
+  },
+  "arm.com": {
+    "_name": "Arm",
+    "newsroom": [
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/arm",
+        "source": [
+          "/blog",
+          "/blog/:slug"
+        ],
+        "target": "/arm/blog"
+      },
+      {
+        "title": "Blog",
+        "docs": "https://docs.rsshub.app/routes/arm",
+        "source": [
+          "/topics/:topic"
+        ],
+        "target": "/arm/blog/:topic"
+      },
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/arm",
+        "source": [
+          "/news",
+          "/news/:slug",
+          "/"
+        ],
+        "target": "/arm/news"
+      },
+      {
+        "title": "News",
+        "docs": "https://docs.rsshub.app/routes/arm",
+        "source": [
+          "/topics/:topic"
+        ],
+        "target": "/arm/news/:topic"
       }
     ]
   },
